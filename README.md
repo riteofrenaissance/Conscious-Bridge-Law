@@ -151,6 +151,7 @@ plt.show()
 ## 📂 Repository Structure
 
 ```
+
 Conscious-Bridge-Law/
 ├── core/                    # Core algorithms
 │   ├── bridge_map.py
@@ -170,13 +171,16 @@ Conscious-Bridge-Law/
 │   ├── arabic_context.py
 │   ├── mixed_language.py
 │   ├── philosophical_queries.py
-│   └── web_demo.py           # Added demo script
+│   └── web_demo.py
 ├── utils/                   # Utilities
 │   ├── token_analysis.py
 │   └── metrics.py
 ├── tests/                   # Test suite
-├── docs/                    # Documentation (PDF, supporting files)
-│   └── research_paper.md     # Added research file
+├── docs/                    # Documentation and images
+│   ├── bridge.png
+│   ├── example_output.png
+│   ├── architecture_diagram.png
+│   └── research_paper.md
 ├── requirements.txt         # Dependencies
 ├── setup.py                  # Optional: Package installer
 ├── pyproject.toml           # Optional: Package configuration
@@ -185,6 +189,7 @@ Conscious-Bridge-Law/
 ├── CONTRIBUTING.md          # Contribution guidelines
 ├── .gitignore               # Ignore patterns for Git
 └── README.md                # Main README
+
 ```
 
 ---
