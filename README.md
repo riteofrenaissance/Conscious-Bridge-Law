@@ -1,4 +1,10 @@
-# 🌉 Conscious Bridge Law
+<p align="center">
+  <img src="docs/bridge.png" alt="Conscious Bridge Law Logo" width="180"/>
+</p>
+
+<h1 align="center">🌉 Conscious Bridge Law</h1>
+<p align="center"><em>Transitional Geometry between Aristotelian and Platonic Logic in AI</em></p>
+
 **Transitional Geometry between Aristotelian and Platonic Logic in AI**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
