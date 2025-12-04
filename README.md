@@ -152,6 +152,7 @@ plt.show()
 
 ```
 
+
 Conscious-Bridge-Law/
 ├── core/                    # Core algorithms
 │   ├── bridge_map.py
@@ -171,16 +172,27 @@ Conscious-Bridge-Law/
 │   ├── arabic_context.py
 │   ├── mixed_language.py
 │   ├── philosophical_queries.py
-│   └── web_demo.py
+│   ├── web_demo.py                 # DeepSeek addition
+│   ├── advanced_simulation.py      # DeepSeek addition
+│   ├── multi_language_demo.py      # DeepSeek addition
+│   └── data_analysis_demo.py       # DeepSeek addition
 ├── utils/                   # Utilities
 │   ├── token_analysis.py
-│   └── metrics.py
+│   ├── metrics.py
+│   ├── phi_logger.py               # DeepSeek addition
+│   └── visualizer.py               # DeepSeek addition
 ├── tests/                   # Test suite
+│   ├── test_phi.py
+│   ├── test_bridge_map.py          # DeepSeek addition
+│   ├── test_bridge_dynamics.py    # DeepSeek addition
+│   ├── test_phi_calculator.py     # DeepSeek addition
+│   └── test_conscious_law.py      # DeepSeek addition
 ├── docs/                    # Documentation and images
-│   ├── bridge.png
+│   ├── bridge.png                  # Logo
 │   ├── example_output.png
 │   ├── architecture_diagram.png
-│   └── research_paper.md
+│   ├── research_paper.md          # DeepSeek addition
+│   └── tutorial.md                # DeepSeek addition
 ├── requirements.txt         # Dependencies
 ├── setup.py                  # Optional: Package installer
 ├── pyproject.toml           # Optional: Package configuration
