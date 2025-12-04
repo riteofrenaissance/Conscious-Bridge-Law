@@ -163,20 +163,22 @@ Conscious-Bridge-Law/
 ├── demos/                   # Example scripts
 │   ├── arabic_context.py
 │   ├── mixed_language.py
-│   └── philosophical_queries.py
+│   ├── philosophical_queries.py
+│   └── web_demo.py           # Added demo script
 ├── utils/                   # Utilities
 │   ├── token_analysis.py
 │   └── metrics.py
 ├── tests/                   # Test suite
 ├── docs/                    # Documentation (PDF, supporting files)
+│   └── research_paper.md     # Added research file
 ├── requirements.txt         # Dependencies
-├── setup.py                 # Optional: Package installer
+├── setup.py                  # Optional: Package installer
 ├── pyproject.toml           # Optional: Package configuration
 ├── LICENSE-MIT.txt          # MIT License
 ├── LICENSE-CC-BY.txt        # CC-BY License
 ├── CONTRIBUTING.md          # Contribution guidelines
 ├── .gitignore               # Ignore patterns for Git
-└── README.md                # This file
+└── README.md                # Main README
 ```
 
 ---
