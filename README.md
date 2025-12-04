@@ -1,12 +1,11 @@
 # 🌉 Conscious Bridge Law
+**Transitional Geometry between Aristotelian and Platonic Logic in AI**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17814683.svg)](https://doi.org/10.5281/zenodo.17814683)
 [![Stars](https://img.shields.io/github/stars/riteofrenaissance/Conscious-Bridge-Law?style=social)](https://github.com/riteofrenaissance/Conscious-Bridge-Law/stargazers)
-
-**Conscious Bridge Law: Transitional Geometry between Aristotelian and Platonic Logic in AI**
 
 *By Samir Baladi | December 3, 2025*
 
@@ -15,6 +14,7 @@
 ## 🎯 What is Conscious Bridge Law?
 
 Instead of forcing AI to choose between:
+
 - **Deterministic** (Aristotelian: T=0) 
 - **Probabilistic** (Platonic: T=1.5)
 
@@ -24,6 +24,7 @@ Aristotle ←─── Conscious Bridge (φ) ───→ Plato T=0.0           
 
 ### Key Innovation: φ (Phi)
 **φ** measures the model's **awareness** of its position on the bridge:
+
 - φ=0: Unconscious transition (random drift)
 - φ=1: Fully conscious (controlled navigation)
 
@@ -91,20 +92,20 @@ Conscious-Bridge-Law/
 │   └── metrics.py
 ├── tests/
 │   └── test_phi.py
-├── README.md
-└── requirements.txt
-
-docs/ → PDF and supporting files (CC-BY 4.0)
-Python scripts → MIT License
-README.md → Documentation
+├── docs/                    → PDF and supporting files (CC-BY 4.0)
+├── README.md                → Documentation + Badges
+├── requirements.txt
+├── CONTRIBUTING.md          → Contribution guidelines
+├── .gitignore               → Excluded files
+└── setup.py / pyproject.toml → Package installation
 
 
 ---
 
 🎓 Citation
 
-@software{beldi_2025_conscious_bridge,
-  author       = {Beldi, Samir},
+@software{baladi_2025_conscious_bridge,
+  author       = {Baladi, Samir},
   title        = {{Conscious Bridge Law: Implementation}},
   year         = 2025,
   publisher    = {Zenodo},
@@ -121,27 +122,48 @@ Code: MIT License
 
 Papers & Docs: CC-BY 4.0
 
-See [LICENSE-MIT.txt](LICENSE-MIT.txt) and [LICENSE-CC-BY.txt](LICENSE-CC-BY.txt)
+
+See LICENSE-MIT.txt and LICENSE-CC-BY.txt
+
 
 ---
 
 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md)
+We welcome contributions! See CONTRIBUTING.md
 
 
 ---
 
+🔗 Links
 
-## 🔗 Links
+📄 Academic Publication (Zenodo)
 
-- 📄 [Academic Publication (Zenodo)](https://doi.org/10.5281/zenodo.17814683)
-- 💻 [GitLab Mirror](https://gitlab.com/cyber-constitution/conscious-bridge)
-- 📚 [Full Documentation](docs/)
-- 📊 [Visualizations](visualizations/)
+💻 GitLab Mirror
+
+📚 Full Documentation
+
+📊 Visualizations
+
+
 
 ---
 
-## 🌟 Star History
+🌟 ## 📜 Release History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=riteofrenaissance/Conscious-Bridge-Law&type=Date)](https://star-history.com/#riteofrenaissance/Conscious-Bridge-Law&Date)
+### v1.0.0 — December 4, 2025
+- Initial release of Conscious Bridge Law
+- Core Python code: `PhiCalculator` and `ConsciousBridgeLaw` classes
+- Demo scripts and tests included
+- Full documentation and README provided
+- Licensed under MIT (code) + CC-BY 4.0 (docs)
+
+---
+
+### Planned Updates
+- Add `setup.py` / `pyproject.toml` for pip installation
+- Expand demos with real-world examples
+- Add notebooks for φ calculation and visualization
+- Improve README with interactive table of contents
+- Include CONTRIBUTING.md (guidelines for collaboration)
+- Publish package to PyPI / TestPyPI
