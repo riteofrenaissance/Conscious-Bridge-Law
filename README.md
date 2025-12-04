@@ -1,12 +1,11 @@
 # 🌉 Conscious Bridge Law
 **Transitional Geometry between Aristotelian and Platonic Logic in AI**
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17814683.svg)](https://doi.org/10.5281/zenodo.17814683)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17814683.svg)](https://doi.org/10.5281/zenodo.17814683)  
 [![Stars](https://img.shields.io/github/stars/riteofrenaissance/Conscious-Bridge-Law?style=social)](https://github.com/riteofrenaissance/Conscious-Bridge-Law/stargazers)
-[![GitLab Last Commit](https://img.shields.io/gitlab/last-commit/cyber-constitution/conscious-bridge/conscious-bridge-law)](https://gitlab.com/cyber-constitution/conscious-bridge/commits/main)
 
 *By Samir Baladi | December 3, 2025*
 
@@ -24,6 +23,8 @@
 - License
 - Contributing
 - Contact
+- Links
+- Release History
 
 ---
 
@@ -36,14 +37,18 @@ Instead of forcing AI to choose between:
 
 We introduce a **third space**: The Conscious Bridge (T ∈ [0.4, 0.8])
 
-Aristotle ←─── Conscious Bridge (φ) ───→ Plato T = 0.0          T = 0.6                T = 1.5 Certain          Aware                  Creative
+```
+Aristotle ←─── Conscious Bridge (φ) ───→ Plato
+T = 0.0          T = 0.6                T = 1.5
+Certain          Aware                  Creative
+```
 
-Key Innovation: φ (Phi)
+**Key Innovation: φ (Phi)**
 
 φ measures the model's awareness of its position on the bridge:
 
-- φ = 0: Unconscious transition (random drift)
-- φ = 1: Fully conscious (controlled navigation)
+- φ = 0: Unconscious transition (random drift)  
+- φ = 1: Fully conscious (controlled navigation)  
 
 ---
 
@@ -64,12 +69,13 @@ output, phi, components = model.generate_with_awareness(
 
 print(f"Bridge Awareness (φ): {phi:.3f}")
 print(f"Generated: {output}")
-
+```
 
 ---
 
-📦 Installation
+## 📦 Installation
 
+```bash
 # Clone repository
 git clone https://github.com/riteofrenaissance/Conscious-Bridge-Law.git
 cd Conscious-Bridge-Law
@@ -79,29 +85,28 @@ pip install -r requirements.txt
 
 # Optional: Install in development mode
 pip install -e .
+```
 
 Requirements: Python 3.8+, PyTorch 1.9+ or TensorFlow 2.5+
 
+---
+
+## 📊 φ Components
+
+| Component  | Weight | Description |
+|------------|--------|------------|
+| Strength   | 35%    | Context representation power (‖hₜ‖) |
+| Attention  | 30%    | Attention mechanism clarity |
+| Stability  | 25%    | Language stability (distance from centers) |
+| Context    | 10%    | Input context quality |
 
 ---
 
-📊 φ Components
+## 💻 Usage Examples
 
-Component	Weight	Description
+### Basic Usage
 
-Strength	35%	Context representation power (‖hₜ‖)
-Attention	30%	Attention mechanism clarity
-Stability	25%	Language stability (distance from centers)
-Context	10%	Input context quality
-
-
-
----
-
-💻 Usage Examples
-
-Basic Usage
-
+```python
 from engine.conscious_law import ConsciousBridgeLaw
 
 model = ConsciousBridgeLaw()
@@ -109,9 +114,11 @@ output, phi, _ = model.generate_with_awareness(
     input_text="The nature of consciousness",
     base_temperature=0.6
 )
+```
 
-Advanced: Monitoring φ
+### Advanced: Monitoring φ
 
+```python
 import matplotlib.pyplot as plt
 
 phi_history = []
@@ -129,12 +136,13 @@ plt.ylabel('φ Value')
 plt.title('Conscious Bridge Awareness Evolution')
 plt.grid(True)
 plt.show()
-
+```
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
+```
 Conscious-Bridge-Law/
 ├── core/                    # Core algorithms
 │   ├── bridge_map.py
@@ -158,17 +166,22 @@ Conscious-Bridge-Law/
 │   ├── token_analysis.py
 │   └── metrics.py
 ├── tests/                   # Test suite
-├── docs/                    # Documentation
+├── docs/                    # Documentation (PDF, supporting files)
 ├── requirements.txt         # Dependencies
+├── setup.py                 # Optional: Package installer
+├── pyproject.toml           # Optional: Package configuration
 ├── LICENSE-MIT.txt          # MIT License
 ├── LICENSE-CC-BY.txt        # CC-BY License
-└── README.md               # This file
-
+├── CONTRIBUTING.md          # Contribution guidelines
+├── .gitignore               # Ignore patterns for Git
+└── README.md                # This file
+```
 
 ---
 
-🎓 Citation
+## 🎓 Citation
 
+```bibtex
 @software{baladi_2025_conscious_bridge,
   author       = {Baladi, Samir},
   title        = {{Conscious Bridge Law: Implementation}},
@@ -177,79 +190,58 @@ Conscious-Bridge-Law/
   doi          = {10.5281/zenodo.17814683},
   url          = {https://doi.org/10.5281/zenodo.17814683}
 }
-
-
----
-
-⚖️ License
-
-Code: Licensed under MIT License
-
-Documentation & Papers: Licensed under CC-BY 4.0
-
-
+```
 
 ---
 
-🤝 Contributing
+## ⚖️ License
+
+- Code: MIT License  
+- Documentation & Papers: CC-BY 4.0  
+
+See [LICENSE-MIT.txt](LICENSE-MIT.txt) and [LICENSE-CC-BY.txt](LICENSE-CC-BY.txt)
+
+---
+
+## 🤝 Contributing
 
 We welcome contributions! Please:
 
-1. Fork the repository
+1. Fork the repository  
+2. Create a feature branch  
+3. Make your changes  
+4. Submit a Pull Request  
 
-
-2. Create a feature branch
-
-
-3. Make your changes
-
-
-4. Submit a Pull Request
-
-
-
-See CONTRIBUTING.md for detailed guidelines.
-
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-📬 Contact
+## 📬 Contact
 
-Maintainer: Samir Baladi
-Email: riteofrenaissance@proton.me
-Issues: GitHub Issues
-
-
----
-
-🔗 Links
-
-🌐 GitHub: riteofrenaissance/Conscious-Bridge-Law
-
-🌐 GitLab: cyber-constitution/conscious-bridge
-
-📄 Academic Paper: Zenodo
-
-📚 Documentation: docs/
-
-
+Maintainer: **Samir Baladi**  
+Email: riteofrenaissance@proton.me  
+Issues: [GitHub Issues](https://github.com/riteofrenaissance/Conscious-Bridge-Law/issues)
 
 ---
 
-📈 Release History
+## 🔗 Links
 
-v1.0.0 (December 2025)
-
-Initial release of Conscious Bridge Law
-
-Core φ calculation algorithms
-
-Demo scripts and examples
-
-Complete documentation
-
-
+- 🌐 GitHub: [riteofrenaissance/Conscious-Bridge-Law](https://github.com/riteofrenaissance/Conscious-Bridge-Law)  
+- 🌐 GitLab: [cyber-constitution/conscious-bridge](https://gitlab.com/cyber-constitution/conscious-bridge)  
+- 📄 Academic Paper: [Zenodo](https://zenodo.org/record/17814683)  
+- 📚 Documentation: [docs/](docs/)
 
 ---
 
-"Bridging the gap between certainty and creativity in AI"
+## 📈 Release History
+
+**v1.0.0 (December 2025)**
+
+- Initial release of Conscious Bridge Law  
+- Core φ calculation algorithms  
+- Demo scripts and examples  
+- Complete documentation  
+
+---
+
+*"Bridging the gap between certainty and creativity in AI"*
