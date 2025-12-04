@@ -7,7 +7,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17814683.svg)](https://doi.org/10.5281/zenodo.17814683)  
 [![Stars](https://img.shields.io/github/stars/riteofrenaissance/Conscious-Bridge-Law?style=social)](https://github.com/riteofrenaissance/Conscious-Bridge-Law/stargazers)
 
-*By Samir Baladi | December 3, 2025*
+By *"Samir Baladi** | December 3, 2025
 
 ---
 
