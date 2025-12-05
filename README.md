@@ -250,14 +250,23 @@ Email: riteofrenaissance@proton.me
 Issues: [GitHub Issues](https://github.com/riteofrenaissance/Conscious-Bridge-Law/issues)
 
 ---
-🔗 **Links**
+## 🔗 Official Platforms
 
-## Official Platforms
+| المنصة | الرابط | الوصف |
+|--------|--------|--------|
+| **GitHub** | [github.com/riteofrenaissance/Conscious-Bridge-Law](https://github.com/riteofrenaissance/Conscious-Bridge-Law) | المستودع الرئيسي للكود المصدري |
+| **PyPI** | [pypi.org/project/conscious-bridge](https://pypi.org/project/conscious-bridge) | حزمة بايثون للتثبيت السهل |
+| **Zenodo** | [doi.org/10.5281/zenodo.17814683](https://doi.org/10.5281/zenodo.17814683) | الورقة البحثية مع DOI دائم |
+| **GitLab** | [gitlab.com/cyber-constitution/conscious-bridge](https://gitlab.com/cyber-constitution/conscious-bridge) | نسخة احتياطية ومتزامنة |
 
-🌐 **PyPI Package:** https://pypi.org/project/conscious-bridge  
-💻 **GitHub Repository:** https://github.com/riteofrenaissance/Conscious-Bridge-Law  
-🔄 **GitLab Mirror:** https://gitlab.com/cyber-constitution/conscious-bridge  
-📄 **Academic Paper:** https://doi.org/10.5281/zenodo.17814683  
+## 📊 Badges
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17814683.svg)](https://doi.org/10.5281/zenodo.17814683)
+[![PyPI version](https://img.shields.io/pypi/v/conscious-bridge.svg)](https://pypi.org/project/conscious-bridge/)
+[![GitHub stars](https://img.shields.io/github/stars/riteofrenaissance/Conscious-Bridge-Law.svg)](https://github.com/riteofrenaissance/Conscious-Bridge-Law/stargazers)
 
 ---
 
