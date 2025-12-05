@@ -253,11 +253,21 @@ Issues: [GitHub Issues](https://github.com/riteofrenaissance/Conscious-Bridge-La
 ---
 ## 🔗 Official Platforms
 
-· 🌐 PyPI Package: pypi.org/project/conscious-bridge
-· 💻 GitHub Repository: github.com/riteofrenaissance/Conscious-Bridge-Law
-· 🔄 GitLab Mirror: gitlab.com/cyber-constitution/conscious-bridge
-· 📄 Academic Paper: doi.org/10.5281/zenodo.17814683
+### 🌐 PyPI Package
+**[conscious-bridge on PyPI](https://pypi.org/project/conscious-bridge)** 📦 Install with: `pip install conscious-bridge`  
+Latest version and package distribution
 
+### 💻 GitHub Repository
+**[Conscious-Bridge-Law on GitHub](https://github.com/riteofrenaissance/Conscious-Bridge-Law)** ⭐ Star the repo | 🍴 Fork the project | 🐛 Report issues  
+Main repository with source code and documentation
+
+### 🔄 GitLab Mirror
+**[conscious-bridge on GitLab](https://gitlab.com/cyber-constitution/conscious-bridge)** 🔄 Synced mirror repository  
+Alternative hosting with continuous integration
+
+### 📄 Academic Paper
+**[Conscious Bridge Law on Zenodo](https://doi.org/10.5281/zenodo.17814683)** DOI: 10.5281/zenodo.17814683  
+Research paper with permanent digital identifier
 
 
 ---
