@@ -1,0 +1,55 @@
+# ملفات النظام
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+
+# بيئات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# بيئات Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# بيئات التطوير
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ملفات النظام التشغيل
+*.orig
+*.rej
+
+# ملفات البناء
+build/
+dist/
+*.egg-info/
+
+# ملفات البيانات الكبيرة
+*.csv
+*.json
+*.dat
+*.db
+
+# ملفات النسخ الاحتياطي
+*.bak
+*.backup
+
+# ملفات الوسائط الكبيرة (اختياري)
+*.mp4
+*.avi
+*.mov
+*.wav
