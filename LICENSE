@@ -1,9 +1,7 @@
-This project is distributed under two separate licenses:
+MIT License
 
-1. **MIT License** – For all Python source code, scripts, and demos.
-   See LICENSE-MIT.txt for full terms.
+Copyright (c) 2025 Samir Baladi
 
-   2. **Creative Commons Attribution 4.0 International (CC BY 4.0)** – For all research documents, PDFs, and other supporting materials in docs/.
-      See LICENSE-CC-BY.txt for full terms.
-
-      Please consult each license file for detailed information and proper attribution requirements.
+Conscious Bridge Law uses dual licensing:
+- Code: MIT License (see LICENSE-MIT.txt)
+- Documentation: CC-BY 4.0 (see LICENSE-CC-BY.txt)
